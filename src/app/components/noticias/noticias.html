@@ -1,0 +1,25 @@
+<div layout="row" layout-align="center start">
+  <h1><strong>Noticias</strong></h1>
+</div>
+
+<hr>
+
+<div class="row">
+  <div layout layout-wrap layout-align="center start">
+    <md-card md-colors="{background: 'blue-500'}" flex="40" flex-xs="100" ng-repeat="noticia in vm.noticias">
+      <md-card-title>
+        <md-card-title-text>
+          <h2>{{ noticia.titular }}</h2>
+        </md-card-title-text>
+      </md-card-title>
+      <md-card-content>
+        <p>{{ noticia.entrada }}</p>
+        <center>
+          <img flex-xs="100" flex-md="100" flex-lg="100" flex-sm="100" src="{{ noticia.imagen }}">
+        </center>
+        <p align="justify">{{ noticia.cuerpo }}</p>
+        <p>Fecha: {{ noticia.created_at }}</p>
+      </md-card-content>
+    </md-card>
+  </div>
+</div>

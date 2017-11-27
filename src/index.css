@@ -1,0 +1,57 @@
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#img1 {
+	width: 50px;
+}
+
+.img2 {
+	padding-top: 10px;
+	padding-right: 10px;
+	width: 90px;
+}
+
+#text1 {
+	padding-left: 15px;
+	font-size: 30px;
+}
+
+body, h1, h2, h3 {
+  font-weight: 300
+}
+
+md-toolbar {
+  border: grey 2px solid;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: bold;
+}
+
+h2 {
+	font-size: 30px;
+	font-family: bold;
+	color: black;
+}
+
+md-card {
+	height: 700px;
+	border: grey 2px solid;
+}
+
+p {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	font-family: bold;
+	font-size: 20px;
+	color: #424242;
+}
+
+.categorias {
+  height: 150px;
+}

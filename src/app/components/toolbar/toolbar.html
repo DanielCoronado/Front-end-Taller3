@@ -1,0 +1,15 @@
+<md-toolbar md-colors="{background: 'light-blue-800'}" class="md-hue-2">
+  <div class="md-toolbar-tools">
+    <img id="img1" src="assets/img/news2.png">
+    <h2 id="text1" ui-sref="app" flex md-truncate>Lara News</h2>
+    <span flex>
+      
+    </span>
+    <md-button ng-if="!vm.isLogged" ui-sref="login">
+      Iniciar Sesion
+    </md-button>
+    <md-button ng-if="vm.isLogged" ng-click="vm.logout()">
+      Cerrar Sesion
+    </md-button>
+  </div>
+</md-toolbar>

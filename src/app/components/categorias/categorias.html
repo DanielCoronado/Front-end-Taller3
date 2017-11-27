@@ -1,0 +1,15 @@
+<div layout="row" layout-align="center start">
+  <h1><strong>Categorias</strong></h1>
+</div>
+
+<hr>
+
+<div layout layout-wrap layout-align="center start">
+  <md-card class="categorias" md-colors="{background: 'blue-500'}" flex="20" flex-xs="100" ng-repeat="categoria in vm.categorias">
+    <md-card-title>
+      <md-card-title-text> 
+        <p class="md-headline">{{ categoria.descripcion }}</p>
+      </md-card-title-text>
+    </md-card-title>
+  </md-card>
+</div>
